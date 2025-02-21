@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.tareas {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 6px;
+    border: none;
+    background: #032a7e;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 35px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background: #010c03;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    min-height: 40px;
+}
+
+.checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+span {
+    flex-grow: 1;
+    max-width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.boton-container {
+    display: flex;
+    gap: 5px;
+}
+
+.tarea-completada {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.contadorTareas {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.editarTarea {
+    display: none;
+    margin-top: 20px;
+}
+
+.editarTarea h2 {
+    font-size: 18px;
+}
+
+.editarTarea input {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.editarTarea button {
+    margin: 5px;
+}

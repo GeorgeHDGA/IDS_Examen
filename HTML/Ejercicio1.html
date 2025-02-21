@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="../CSS/css.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Lista de Tareas</h1>
+            <div class="tareas">
+                <input type="text" id="tareaInput" placeholder="Nueva tarea">
+                <button id="addTarea">Agregar</button>
+            </div>
+            <ul id="listaTareas"></ul>
+            <div class="contadorTareas">
+                <p>Completadas: <span id="contadorCompletas">0</span></p>
+                <p>Incompletas: <span id="contadorIncompletas">0</span></p>
+            </div>
+            <div class="editarTarea">
+                <h2>Editar Tarea</h2>
+                <input type="text" id="editarInput">
+                <button id="guardarEdicion">Guardar</button>
+                <button id="cancelarEdicion">Cancelar</button>
+            </div>
+        </div>
+    </main>
+    <script src="../JS/Ejercicio1.js"></script>
+</body>
+</html>
